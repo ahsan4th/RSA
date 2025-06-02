@@ -163,7 +163,6 @@ def decrypt(private_key, ciphertext):
 st.set_page_config(page_title="RSA Cryptography Demo", layout="wide")
 
 st.title("🔐 RSA Cryptography Demo with Streamlit")
-st.markdown("Developed by Google Gemini based on your `RSA.ipynb` file.")
 st.write("This application demonstrates the basic principles of RSA encryption and decryption.")
 
 # Initialize session state for keys and messages
